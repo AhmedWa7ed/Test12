@@ -1,0 +1,30 @@
+.posion-img{
+    border-radius: 15px;
+}
+.bg-img{
+    position: absolute;
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+    opacity: 0;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.paraent-img:hover .bg-img{
+    background-color:#1abc9ce6;
+    opacity: .6s;
+    opacity: 1;
+}
+.d-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-plus{
+    font-size: 40px;
+}
+.mt-50{
+    margin-top: 420px !important;
+}
